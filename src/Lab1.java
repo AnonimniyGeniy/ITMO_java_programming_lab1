@@ -3,17 +3,6 @@ public class Lab1 {
     static long a[];
     static double x[];
     static double a1[][];
-    /*
-    public void Print() {
-        for (int i = 0; i < 16; i++) {
-            for (int j = 0; j < 17; j++) {
-                System.out.printf("%.2f; ", a1[i][j]);
-                //System.out.println(a1[i][j]);
-            }
-            System.out.print("\n");
-        }
-    }
-    */
     public static void Print() {
         for (int i = 0; i < 16; i++) {
             for (int j = 0; j < 17; j++) {
