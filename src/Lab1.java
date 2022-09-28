@@ -3,6 +3,7 @@ public class Lab1 {
     static long a[];
     static double x[];
     static double a1[][];
+
     public static void Print() {
         for (int i = 0; i < 16; i++) {
             for (int j = 0; j < 17; j++) {
@@ -12,6 +13,7 @@ public class Lab1 {
             System.out.print("\n");
         }
     }
+
     public static void Lab1() {
 
         a = new long[16];
@@ -75,7 +77,6 @@ public class Lab1 {
 
     public static void main(String[] args) {
         Lab1();
-        //lab1.Print();
         Print();
     }
 }
